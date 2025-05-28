@@ -1,14 +1,8 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home/Home'
-// import './App.css'
+import AppRoutes from './AppRoutes'
 
 const App : React.FC = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-      </Routes>
-    </BrowserRouter>
+    <AppRoutes/>
   )
 }
 
